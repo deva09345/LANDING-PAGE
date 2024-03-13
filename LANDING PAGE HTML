@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     ul li{
+      list-style-type:none;
+     }
+  </style>
+  <style>
+    body{
+      background-image: url(data:image/jpeg;base64,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);
+      background-repeat:no-repeat ;
+      background-size: cover;
+      position: relative;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding:0;
+      margin-bottom: 15%;
+      }
+  </style>
+  <style>
+    h2{line-height: 0px;}
+  </style>
+<script src="https://kit.fontawesome.com/f9c49325e6.js" crossorigin="anonymous"></script>
+<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu-bar">     
+<ul>
+<li>ANIRUDH</li>
+<li>Y1 MUSIC</li>
+<li>HARISH JAYARAJ MUSIC</li>
+<li>ARR MUSIC</li>
+<li>NEWS AND EVENT</li>
+<li>SERVICE</li> 
+</ul>
+</div>
+  <div>
+  <ul>
+    <h1 class = "paragraph">WELCOME TO MY MUSIC WEBSITE</h1>
+    <h2 class = "paragraph2">ENTERDIMENT MUSIC </h2>
+  </div>
+</ul>
+<div>
+  <p class = "paragraph5">Welcome to DEVA music website, where melody meets innovation. Dive into a world of harmonies and rhythms curated to elevate your auditory senses. Our platform is designed to be your ultimate destination for all things music, offering a diverse collection of tracks spanning various genres and eras. Whether you're a passionate music enthusiast or a casual listener, our intuitive interface makes exploring and discovering new tunes a breeze. Join our vibrant community of music lovers, where you can share your favorite tracks, connect with fellow enthusiasts, and stay updated on the latest releases and trends. Experience the magic of music like never before, only at DEVA music."</p>
+</div>
+<ul>
+<div>
+<a href= "#" class = "lets-go-btn">CLICK HERE</a>
+</div>
+</ul>
+<footer class = "footer">
+  <div class="icons">
+  <ul>
+    <a style="color: #0ac623;"href="#"><i class="fa-brands fa-spotify"></i></a> 
+    <a style="color: #595b60b5;"href="#"><i class="fa-brands fa-apple"></i></a>
+    <a style="color: #ef4f0bf3;"href="#"><i class="fa-brands fa-soundcloud"></i></a>
+    <a style="color: floralwhite;"href="#"><i class="fa-brands fa-deezer"></i></a>
+  </ul>
+  </div> 
+  <div class="p1">
+  <pre> ENTERDIMENT MUSIC                                                         &copy;2024  MUSIC ENTERTAINMENT  LTD                 CLICK HERE FOR TERMS AND CONDITION</pre>
+  </div>
+</footer>
+</body>
+</html>
